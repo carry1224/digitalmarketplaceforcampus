@@ -1,3 +1,43 @@
 body{
-  background-color: white;
+  background-color:palevioletred;
 }
+#area { 
+  margin-left: auto;
+  margin-right: auto; 
+  width: 30%;
+  text-align: center;
+  box-shadow: 0 4px 10px rgb(254, 72, 188) ;
+  padding: 15;
+  margin-top: 5%;
+  background-color: pink;
+  border-radius: 5px;
+}
+#images {
+  border: 2px solid rgb(244, 60, 140);
+  border-radius: 50%;
+}
+h2{
+  font-style: italic;
+  border: 2px;
+  text-align: center;
+  padding: 50px;
+
+}
+#start-btn{
+  color: rgb(254, 72, 188);
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+/*#social {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 5px;
+}*/
