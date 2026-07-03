@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vendor Login</title>
+
+<link rel="stylesheet" href="vendor.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="login-card">
+
+        <h1>Vendor Login</h1>
+
+        <p>Welcome back! Please sign in to continue.</p>
+
+        <form id="loginForm">
+
+            <label>Email Address or Username</label>
+
+            <input
+                type="text"
+                id="username"
+                placeholder="Enter Email or Username"
+                required
+            >
+
+            <label>Password</label>
+
+            <div class="password-box">
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter Password"
+                    required
+                >
+
+                <button
+                    type="button"
+                    id="showPassword"
+                    class="show-btn"
+                >
+                    Show
+                </button>
+
+            </div>
+
+            <a href="#" class="forgot">
+                Forgot Password?
+            </a>
+
+            <button
+                type="submit"
+                class="login-btn"
+            >
+                Login
+            </button>
+
+        </form>
+
+        <hr>
+
+        <p class="signup-text">
+
+            Don't have an account?
+
+            <a href="vendor-signup.html">
+                Sign Up
+            </a>
+
+        </p>
+
+    </div>
+
+</div>
+
+<script src="vendor.js"></script>
+
+</body>
+</html>
